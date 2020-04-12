@@ -204,7 +204,7 @@ body {
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
-    max-width: 75px;
+    max-width: 100px;
 }
 .price:after {
     content: "";
@@ -340,6 +340,11 @@ body {
 .footer-buttons {
     display: flex;
     align-items: center;
+}
+.modal-dialog {
+    overflow: scroll;
+    width: 300px;
+    height: 500px;
 }
 .modal-pricetag {
     background: #262626;
@@ -503,6 +508,44 @@ body {
     .promo-text {
         font-size: 11px;
         margin-top: 10px;
+    }
+    .modal-dialog {
+        max-width: 90%;
+    }
+    .food-row {
+        display: flex;
+        align-items: center;
+    }
+    .food-name {
+        font-size: 15px;
+        line-height: 1.2;
+    }
+    .food-price {
+        font-size: 15px;
+        white-space: nowrap;
+        margin-right: 10px;
+    }
+    .modal-footer {
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+        align-items: center;    
+    }
+    .modal-body {
+        margin-bottom: 20px;
+    }
+    .modal-pricetag {
+        margin-bottom: 10px;
+        font-size: 15px;
+        padding: 12px 23px;
+    }
+    .button {
+        font-size: 12px;
+    }
+    .button-primary {
+        margin-right: 7px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
     }
 }
 
