@@ -341,11 +341,6 @@ body {
     display: flex;
     align-items: center;
 }
-.modal-dialog {
-    overflow: scroll;
-    width: 300px;
-    height: 500px;
-}
 .modal-pricetag {
     background: #262626;
     border-radius: 5px;
@@ -546,6 +541,11 @@ body {
         text-overflow: ellipsis;
         overflow: hidden;
         white-space: nowrap;
+    }
+    .modal-dialog {
+        overflow: scroll;
+        width: 300px;
+        height: 500px;
     }
 }
 
